@@ -1,0 +1,352 @@
+@font-face {
+  font-family: "Roboto";
+  src: url(font/Roboto-Regular.ttf);
+  font-weight: 400;
+}
+body {
+  font-family: "Roboto";
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.header {
+  width: 100%;
+  background-color: white;
+  position: sticky;
+  top: 0;
+  box-shadow: 0px 4px 4px 0px rgb(0 0 0 / 0.25);
+}
+.header_content {
+  max-width: 962px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 72px;
+}
+.sign-in_and_basket {
+  display: flex;
+  align-items: center;
+}
+.header .logo img {
+  margin-left: 8px;
+  height: 12x;
+  width: 120px;
+  transition: all 0.3s ease;
+}
+.header .logo img:hover {
+  transform: scale(1.2);
+}
+.header .sign-in img {
+  height: 40px;
+  width: 78px;
+  transition: all 0.3s ease;
+}
+.header .sign-in img:hover {
+  transform: scale(1.2);
+}
+
+.sign-in {
+  margin-right: 8px;
+}
+.basket {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.header .basket img {
+  transition: all 0.3s ease;
+  height: 22px;
+  width: 19px;
+}
+.header .basket img:hover {
+  transform: scale(1.4);
+}
+.search {
+  margin: 56px 0px 56px 0px;
+  padding-left: 8px;
+  padding-right: 8px;
+  max-width: 970px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.search input {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  color: #626262;
+  font-family: "Roboto";
+}
+.search form {
+  border-bottom: 1px solid #979797;
+}
+.Moscow_Restaurants {
+  padding-left: 8px;
+  padding-right: 8px;
+  max-width: 970px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 16px;
+}
+.Moscow_Restaurants p {
+  font-size: 22px;
+  color: #1d1d1d;
+}
+.Cards img {
+  transition: all 0.3s ease;
+  height: 246px;
+  width: 308px;
+}
+.Cards img:hover {
+  transform: scale(1.07);
+}
+.card_p1 {
+  margin-top: 16px;
+  font-size: 16px;
+  color: #1d1d1d;
+  transition: all 0.3s ease;
+}
+.card_p1:hover {
+  color: #b87c7cd5;
+}
+.card_p2 {
+  margin-top: 4px;
+  font-size: 14px;
+  color: #626262;
+  transition: all 0.3s ease;
+}
+.card_p2:hover {
+  color: #b87c7cd5;
+}
+.card_p3 {
+  margin-top: 4px;
+  font-size: 13px;
+  color: #1d1d1d;
+  margin-bottom: 20px;
+  transition: all 0.3s ease;
+}
+.card_p3:hover {
+  color: #b87c7cd5;
+}
+.Cards a {
+  text-decoration: none;
+}
+.Cards {
+  max-width: 962px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  justify-content: center;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  grid-template-columns: repeat(3, 308px);
+}
+.footer {
+  width: 100%;
+  background-color: #262626;
+  margin-top: 80px;
+  padding-top: 40px;
+}
+.footer_content {
+  max-width: 962px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #ffffff;
+}
+.white-logo img {
+  height: 20px;
+  width: 190px;
+  transition: all 0.3s ease;
+}
+.white-logo img:hover {
+  transform: scale(0.9);
+}
+.Downnload .App_Store {
+  height: 40px;
+  width: 120px;
+}
+.Downnload .Google_Play {
+  height: 40px;
+  width: 135px;
+}
+.social img {
+  height: 24px;
+  width: 24px;
+  transition: all 0.3s ease;
+}
+.social img:hover {
+  transform: scale(1.5);
+  filter: drop-shadow(0px 0px 16px rgb(255, 255, 255));
+}
+.language_and_social select option{
+  font-size: 16px;
+}
+.language_and_social select {
+  color: #ffffff;
+  appearance: none;
+  border: none;
+  width: 227px;
+  background: url(img/footer/language/world.svg) 16px no-repeat,
+    url(img/footer/language/arrow.svg) no-repeat 205px;
+  background-color: #3b3b3b;
+  padding: 12px 128px 12px 48px;
+  border-radius: 2px;
+  display: block;
+  margin-bottom: 32px;
+  transition: all 0.3s ease;
+}
+.language_and_social select:hover {
+  transform: scale(1.2);
+}
+
+.white-logo {
+  margin-bottom: 40px;
+}
+.Footer_two_block {
+  border-top: 1px solid #979797;
+  border-bottom: 1px solid #979797;
+  display: grid;
+  padding-top: 32px;
+  padding-bottom: 48px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.social {
+  width: 92px;
+  height: 60px;
+}
+.social p {
+  display: inline;
+  font-size: 16px;
+  margin-bottom: 39px;
+}
+.icons {
+  margin-top: 17px;
+  display: flex;
+  justify-content: space-between;
+}
+.social .hashtag {
+  color: #49a144;
+}
+.list p {
+  font-size: 13px;
+  margin-bottom: 23px;
+  transition: all 0.3s ease;
+}
+.list p:hover {
+  color: #72d46fd5;
+}
+.Downnload {
+  border-bottom: 1px solid #979797;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: center;
+}
+.Downnload a {
+  margin: 0px 20px;
+  transition: all 0.3s ease;
+}
+.Downnload a:hover {
+  transform: scale(1.2);
+  filter: drop-shadow(0px 0px 16px rgb(151, 151, 151));
+}
+.bottom_annotations {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-right: 150px;
+  font-size: 11px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  transition: all 0.3s ease;
+}
+.bottom_annotations p:hover {
+  color: #72d46fd5;
+}
+.btn-up img {
+  height: 80px;
+  width: 80px;
+  transition: all 0.3s ease;
+}
+.btn-up img:hover {
+  transform: scale(1.2);
+}
+.btn-up {
+  position: fixed;
+  right: 16px;
+  bottom: 24px;
+}
+@media (max-width: 1000px) {
+  .header_content {
+    max-width: 768px;
+  }
+  .search {
+    max-width: 768px;
+  }
+  .Moscow_Restaurants {
+    max-width: 768px;
+  }
+  .Cards {
+    max-width: 768px;
+    grid-template-columns: repeat(2, 368px);
+  }
+  .Cards img {
+    width: 368px;
+  }
+  .footer_content {
+    max-width: 768px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header_content {
+    max-width: 308px;
+  }
+  .search {
+    max-width: 308px;
+  }
+  .Moscow_Restaurants {
+    max-width: 308px;
+  }
+  .Cards {
+    max-width: 308px;
+    grid-template-columns: repeat(1, 308px);
+  }
+  .Cards img {
+    width: 308px;
+  }
+  .footer_content {
+    max-width: 308px;
+  }
+  .Footer_two_block {
+    grid-template-columns: 1fr;
+  }
+  .btn-up img {
+    height: 64px;
+    width: 64px;
+  }
+  .Downnload .App_Store {
+    height: 36px;
+    width: 109px;
+  }
+  .Downnload .Google_Play {
+    height: 36px;
+    width: 109px;
+  }
+  .language_and_social {
+    margin-bottom: 40px;
+  }
+  .bottom_annotations {
+    flex-direction: column;
+    padding-right: 0px;
+    padding-bottom: 16px;
+  }
+  .bottom_annotations p {
+    margin-bottom: 24px;
+  }
+  .basket {
+    display: none;
+  }
+}
